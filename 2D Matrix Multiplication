@@ -16,8 +16,9 @@ int main()
   printf("Enter number of rows and columns of second matrix\n");
   scanf("%d%d", &p, &q);
  
-  if (n != p)
+  if (n != p){
     printf("The multiplication isn't possible.\n");
+    }
   else
   {
     printf("Enter elements of second matrix\n");
